@@ -25,7 +25,7 @@ var userDocs = createUsersDocs( users );
 // takes an array of users and converts them into an array of documents.
 function createUsersDocs(userArray){
     for( i = 0; i < userArray.length ; i++ ){
-        //creates random id between 100 and 199
+        //creates random id between 100 and 299
         id = Math.floor((Math.random() * 200) + 100);
         userArray[i] = { "_id" : id, "name" : userArray[i] };
     }
